@@ -1,0 +1,529 @@
+<list>
+  <net.rptools.maptool.model.MacroButtonProperties>
+    <saveLocation>CampaignPanel</saveLocation>
+    <index>10</index>
+    <colorKey>default</colorKey>
+    <hotKey>None</hotKey>
+    <command>[r:procHealing(200, &quot;regains&quot;, &quot;General&quot;, 0)]
+[h:abort(0)]</command>
+    <label>Mass Healing</label>
+    <group>GM Utilities</group>
+    <sortby></sortby>
+    <autoExecute>true</autoExecute>
+    <includeLabel>false</includeLabel>
+    <applyToTokens>true</applyToTokens>
+    <fontColorKey>black</fontColorKey>
+    <fontSize>1.00em</fontSize>
+    <minWidth></minWidth>
+    <maxWidth></maxWidth>
+    <allowPlayerEdits>false</allowPlayerEdits>
+    <toolTip></toolTip>
+    <commonMacro>false</commonMacro>
+    <compareGroup>true</compareGroup>
+    <compareSortPrefix>true</compareSortPrefix>
+    <compareCommand>true</compareCommand>
+    <compareIncludeLabel>true</compareIncludeLabel>
+    <compareAutoExecute>true</compareAutoExecute>
+    <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+  </net.rptools.maptool.model.MacroButtonProperties>
+  <net.rptools.maptool.model.MacroButtonProperties>
+    <saveLocation>CampaignPanel</saveLocation>
+    <index>11</index>
+    <colorKey>default</colorKey>
+    <hotKey>None</hotKey>
+    <command>&lt;!--Get the list of Potential Resist/Vulnerable states--&gt;
+[h:debugmode=getProperty(&quot;DEBUGMODE&quot;)]
+
+&lt;!--Gather information on Conditions--&gt;
+[h,if(json.isEmpty(TempResist)==0): resList=json.fields(TempResist); resList = &quot;&quot;]
+[h,if(json.isEmpty(TempVulnerable)==0): vlnList = json.fields(TempVulnerable); vlnList = &quot;&quot;]
+[h:extCondList = json.fields(ExternalTiming)]
+
+&lt;!--Reset defense adjustments if necessary--&gt;
+[h,if(listFind(extCondList, &quot;SecondWindBonus&quot;) !=-1 ): restoreDefenses(&quot;SecondWindBonus&quot;)]
+[h,if(listFind(extCondList, &quot;DefensePenalty&quot;)!=-1): restoreDefenses(&quot;DefensePenalty&quot;)]
+[h,if(listFind(extCondList, &quot;DefenseBonus&quot;)!=-1): restoreDefenses(&quot;DefenseBonus&quot;)]
+
+&lt;!--Reset temporary vulnerability or resistance if necessary--&gt;
+[h,foreach(tmpCondition,resList),CODE:
+{
+   [tmpAdj = json.get(TempResist, tmpCondition)]
+   [Resist = json.set(Resist, tmpCondition, json.get(Resist,tmpCondition)-tmpAdj)]
+}]
+
+[h,foreach(tmpCondition,vlnList),CODE:
+{
+   [tmpAdj = json.get(TempVulnerable, tmpCondition)]
+   [Vulnerable = json.set(Vulnerable, tmpCondition, json.get(Vulnerable,tmpCondition)-tmpAdj)]
+}]
+
+&lt;!--Clear or reset all condition properties on the token--&gt;
+[h:ExternalTiming = &quot;{}&quot;]
+[h:OngoingDamage = &quot;{}&quot;]
+[h:setAllStates(0)]
+[h:setProperty(&quot;TempResist&quot;, &quot;{}&quot;)]
+[h:setProperty(&quot;TempVulnerable&quot;, &quot;{}&quot;)]
+[h:setProperty(&quot;LastDefenseAdjustment&quot;, json.set(&quot;{}&quot;, &quot;Defense&quot;, &quot;AC&quot;, &quot;adjustment&quot;, 0))]
+[h:setProperty(&quot;LastAttackAdjustment&quot;, json.set(&quot;{}&quot;, &quot;adjustment&quot;, 0))]
+
+All conditions removed.</command>
+    <label>Mass Remove Condition</label>
+    <group>GM Utilities</group>
+    <sortby></sortby>
+    <autoExecute>true</autoExecute>
+    <includeLabel>false</includeLabel>
+    <applyToTokens>true</applyToTokens>
+    <fontColorKey>black</fontColorKey>
+    <fontSize>1.00em</fontSize>
+    <minWidth></minWidth>
+    <maxWidth></maxWidth>
+    <allowPlayerEdits>false</allowPlayerEdits>
+    <toolTip></toolTip>
+    <commonMacro>false</commonMacro>
+    <compareGroup>true</compareGroup>
+    <compareSortPrefix>true</compareSortPrefix>
+    <compareCommand>true</compareCommand>
+    <compareIncludeLabel>true</compareIncludeLabel>
+    <compareAutoExecute>true</compareAutoExecute>
+    <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+  </net.rptools.maptool.model.MacroButtonProperties>
+  <net.rptools.maptool.model.MacroButtonProperties>
+    <saveLocation>CampaignPanel</saveLocation>
+    <index>3</index>
+    <colorKey>default</colorKey>
+    <hotKey>None</hotKey>
+    <command>[macro(&quot;Initiative@Lib:4e&quot;):&quot;&quot;]</command>
+    <label>Add All to Initiative</label>
+    <group>GM Utilities</group>
+    <sortby>1</sortby>
+    <autoExecute>true</autoExecute>
+    <includeLabel>false</includeLabel>
+    <applyToTokens>true</applyToTokens>
+    <fontColorKey>black</fontColorKey>
+    <fontSize>1.00em</fontSize>
+    <minWidth></minWidth>
+    <maxWidth></maxWidth>
+    <allowPlayerEdits>false</allowPlayerEdits>
+    <toolTip></toolTip>
+    <commonMacro>false</commonMacro>
+    <compareGroup>true</compareGroup>
+    <compareSortPrefix>true</compareSortPrefix>
+    <compareCommand>true</compareCommand>
+    <compareIncludeLabel>true</compareIncludeLabel>
+    <compareAutoExecute>true</compareAutoExecute>
+    <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+  </net.rptools.maptool.model.MacroButtonProperties>
+  <net.rptools.maptool.model.MacroButtonProperties>
+    <saveLocation>CampaignPanel</saveLocation>
+    <index>25</index>
+    <colorKey>default</colorKey>
+    <hotKey>None</hotKey>
+    <command>[h:initGroup = listSort(getSelectedNames(), &quot;N+&quot;)]
+[initGroup]
+[h:keyToken = listGet(initGroup,0)]
+[h,token(keyToken): Init = 1d20+InitBonus]
+
+[r,foreach(token,initGroup),CODE:
+{
+      [token(token),CODE:
+      {         
+	[h:addToInitiative()]
+	[h:setInitiative(Init)]
+	[outputTo(&quot;self&quot;, getName(token)+&quot; initiative roll: &quot;+Init)]
+      }]
+}]
+[h:sortInitiative()]</command>
+    <label>Group Initiative</label>
+    <group>GM Utilities</group>
+    <sortby>1</sortby>
+    <autoExecute>true</autoExecute>
+    <includeLabel>false</includeLabel>
+    <applyToTokens>false</applyToTokens>
+    <fontColorKey>black</fontColorKey>
+    <fontSize>1.00em</fontSize>
+    <minWidth></minWidth>
+    <maxWidth></maxWidth>
+    <allowPlayerEdits>false</allowPlayerEdits>
+    <toolTip></toolTip>
+    <commonMacro>false</commonMacro>
+    <compareGroup>true</compareGroup>
+    <compareSortPrefix>true</compareSortPrefix>
+    <compareCommand>true</compareCommand>
+    <compareIncludeLabel>true</compareIncludeLabel>
+    <compareAutoExecute>true</compareAutoExecute>
+    <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+  </net.rptools.maptool.model.MacroButtonProperties>
+  <net.rptools.maptool.model.MacroButtonProperties>
+    <saveLocation>CampaignPanel</saveLocation>
+    <index>6</index>
+    <colorKey>default</colorKey>
+    <hotKey>None</hotKey>
+    <command>[h:assert(isGM(), &quot;&lt;i&gt;Only the GM may use the &quot;+getMacroName()+&quot; macro&lt;/i&gt;&quot;,0)][macro(&quot;Short Rest@Lib:4e&quot;):&quot;&quot;]</command>
+    <label>Grant Short Rest</label>
+    <group>GM Utilities</group>
+    <sortby>2</sortby>
+    <autoExecute>true</autoExecute>
+    <includeLabel>false</includeLabel>
+    <applyToTokens>true</applyToTokens>
+    <fontColorKey>black</fontColorKey>
+    <fontSize>1.00em</fontSize>
+    <minWidth></minWidth>
+    <maxWidth></maxWidth>
+    <allowPlayerEdits>false</allowPlayerEdits>
+    <toolTip></toolTip>
+    <commonMacro>false</commonMacro>
+    <compareGroup>true</compareGroup>
+    <compareSortPrefix>true</compareSortPrefix>
+    <compareCommand>true</compareCommand>
+    <compareIncludeLabel>true</compareIncludeLabel>
+    <compareAutoExecute>true</compareAutoExecute>
+    <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+  </net.rptools.maptool.model.MacroButtonProperties>
+  <net.rptools.maptool.model.MacroButtonProperties>
+    <saveLocation>CampaignPanel</saveLocation>
+    <index>5</index>
+    <colorKey>default</colorKey>
+    <hotKey>None</hotKey>
+    <command>[h:assert(isGM(), &quot;&lt;i&gt;Only the GM may use the &quot;+getMacroName()+&quot; macro&lt;/i&gt;&quot;,0)]
+[macro(&quot;Extended Rest@Lib:4e&quot;):&quot;&quot;]</command>
+    <label>Grant Extended Rest</label>
+    <group>GM Utilities</group>
+    <sortby>3</sortby>
+    <autoExecute>true</autoExecute>
+    <includeLabel>false</includeLabel>
+    <applyToTokens>true</applyToTokens>
+    <fontColorKey>black</fontColorKey>
+    <fontSize>1.00em</fontSize>
+    <minWidth></minWidth>
+    <maxWidth></maxWidth>
+    <allowPlayerEdits>false</allowPlayerEdits>
+    <toolTip></toolTip>
+    <commonMacro>false</commonMacro>
+    <compareGroup>true</compareGroup>
+    <compareSortPrefix>true</compareSortPrefix>
+    <compareCommand>true</compareCommand>
+    <compareIncludeLabel>true</compareIncludeLabel>
+    <compareAutoExecute>true</compareAutoExecute>
+    <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+  </net.rptools.maptool.model.MacroButtonProperties>
+  <net.rptools.maptool.model.MacroButtonProperties>
+    <saveLocation>CampaignPanel</saveLocation>
+    <index>4</index>
+    <colorKey>default</colorKey>
+    <hotKey>None</hotKey>
+    <command>[h:assert(isGM(), &quot;&lt;i&gt;Only the GM may use the &quot;+getMacroName()+&quot; macro&lt;/i&gt;&quot;,0)]
+[h:ActionPoints = ActionPoints + 1]
+[r:token.name] has achieved a Milestone, and gains one action point. </command>
+    <label>Grant Milestone</label>
+    <group>GM Utilities</group>
+    <sortby>4</sortby>
+    <autoExecute>true</autoExecute>
+    <includeLabel>false</includeLabel>
+    <applyToTokens>true</applyToTokens>
+    <fontColorKey>black</fontColorKey>
+    <fontSize>1.00em</fontSize>
+    <minWidth></minWidth>
+    <maxWidth></maxWidth>
+    <allowPlayerEdits>false</allowPlayerEdits>
+    <toolTip></toolTip>
+    <commonMacro>false</commonMacro>
+    <compareGroup>true</compareGroup>
+    <compareSortPrefix>true</compareSortPrefix>
+    <compareCommand>true</compareCommand>
+    <compareIncludeLabel>true</compareIncludeLabel>
+    <compareAutoExecute>true</compareAutoExecute>
+    <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+  </net.rptools.maptool.model.MacroButtonProperties>
+  <net.rptools.maptool.model.MacroButtonProperties>
+    <saveLocation>CampaignPanel</saveLocation>
+    <index>7</index>
+    <colorKey>default</colorKey>
+    <hotKey>None</hotKey>
+    <command>&lt;!--General method to get macro groups and labels on a token. This version is to copy macros to another token--&gt;
+&lt;!--but it is possible to use this information for whatever purpose you might think of--&gt;
+
+[h:continue=input(&quot;.|&lt;html&gt;This utility copies macros to another token. Note: it will &lt;b&gt;not&lt;/b&gt; copy &lt;i&gt;powers&lt;/i&gt; from&lt;/html&gt;||LABEL|SPAN=TRUE&quot;,
+&quot;.|&lt;html&gt;one token to another. For that, use the &lt;i&gt;Copy Power to Other Token&lt;/i&gt; macro located on&lt;/html&gt;||LABEL|SPAN=TRUE&quot;,
+&quot;.|the character token. Hit OK to continue, or Cancel to exit.||LABEL|SPAN=TRUE&quot;)]
+[h:abort(continue)]
+
+
+&lt;!--Get a list of all macros on a token--&gt;
+[h,if(getMacros() != &quot;&quot;): fullMacList = getMacros(); assert(0, &quot;There are no macros on the token &lt;b&gt;&quot;+token.name+&quot;&lt;/b&gt;&quot;, 0)]
+[h:fullMacList = listSort(fullMacList,&quot;N+&quot;)]
+[h:fullMacList = json.fromList(fullMacList))]
+[h:macList = json.unique(fullMacList)]
+
+&lt;!--Initialize a few variables that will be used later on--&gt;
+[h:inputParams = &quot;&quot;]
+[h:groupArray = &quot;[]&quot;]
+[h:macrosInGroup = &quot;{}&quot;]
+
+
+&lt;!--Add a Tab to hold the Copy Target info--&gt;
+[h:inputParams = json.append(inputParams, &quot;copyTab|Copy Settings||TAB&quot;)]
+[h:inputParams = json.append(inputParams, &quot;copyTo|&quot;+getTokenNames()+&quot;|Select destination token|LIST|SELECT=0 VALUE=STRING&quot;)]
+[h:inputParams = json.append(inputParams, &quot;appendInc|0|Add suffix to macro label (so that duplicate macros are not created)|CHECK&quot;)]
+[h:inputParams = json.append(inputParams, &quot;suffix|(copy)|Enter suffix to append&quot;)]
+
+&lt;!--Loop through the list of macros, and extract the GROUP property from the result of getMacroProps()--&gt;
+
+[h:tmpArray = &quot;&quot;]
+
+[h,foreach(macro,macList),CODE:
+{
+    [indexes = getMacroIndexes(macro)]
+    [foreach(index,indexes): tmpArray = if(getStrProp(getMacroProps(index),&quot;group&quot;) == &quot;&quot;, json.append(tmpArray, &quot;Top Level&quot;), json.append(tmpArray, getStrProp(getMacroProps(index), &quot;group&quot;)))]
+}]
+
+&lt;!--Since we need only the names of each unique group, use json.unique() to return a list of the unique entries in groupArray--&gt;
+[h:uniqueGroupArray = json.unique(tmpArray)]
+[h:uniqueGroupList = json.toList(uniqueGroupArray)]
+[h:uniqueGroupList = listSort(uniqueGroupList, &quot;N+&quot;)]
+
+[h,foreach(uniqueGroup, uniqueGroupList),CODE:
+{
+    [tempObj = &quot;&quot;]
+    [h,foreach(macro,macList),CODE:
+    {
+       [indexes = getMacroIndexes(macro)]
+       [h,foreach(index, indexes): tempObj = 
+              if(
+                  if(getStrProp(getMacroProps(index),&quot;group&quot;)==&quot;&quot;, &quot;Top Level&quot;, getStrProp(getMacroProps(index),&quot;group&quot;)) == uniqueGroup,
+ 	   listAppend(tempObj, macro), tempObj)]
+    }]
+    [h:macrosInGroup = json.set(macrosInGroup, uniqueGroup, tempObj)]
+}]
+
+[h,foreach(uniqueGroup, uniqueGroupList),CODE:
+{  
+   [macroLabels = listSort(json.get(macrosInGroup, uniqueGroup), &quot;N+&quot;)]
+   [h:inputParams = json.append(inputParams, &quot;group_&quot;+roll.count+&quot;|&quot;+uniqueGroup+&quot;||TAB&quot;)]
+   [h:inputParams = json.append(inputParams, &quot;.|&lt;html&gt;Select the Macros you wish to copy. Make sure to configure the copy settings in the &lt;b&gt;Copy Settings&lt;/b&gt; tab.&lt;/html&gt;||LABEL|SPAN=TRUE&quot;)]
+   [foreach(macroLabel, macroLabels),CODE:
+   {
+      [idx = getMacroIndexes(macroLabel)]
+      [foreach(index, idx): inputParams =if(if(getStrProp(getMacroProps(index),&quot;group&quot;)==&quot;&quot;, &quot;Top Level&quot;, getStrProp(getMacroProps(index),&quot;group&quot;)) == uniqueGroup, json.append(inputParams, &quot;macro_&quot;+index+&quot;|0|&lt;html&gt;&quot;+macroLabel+&quot; &quot;+if(getStrProp(getMacroProps(index),&quot;tooltip&quot;)==&quot;&quot;, &quot;(no tooltip available)&quot;, &quot;(&quot;+getStrProp(getMacroProps(index),&quot;tooltip&quot;)+&quot;)&quot;)+&quot;&lt;/html&gt;|CHECK&quot;), inputParams)]
+   }]
+}]
+
+
+&lt;!--Convert inputParams from a JSON string array to a string list, using ## as the list delimiter (required for this trick)--&gt;
+[h:inputParams = json.toList(inputParams, &quot;##&quot;)]
+
+&lt;!--pass inputParams to the input() function to generate an input dialog with tabs for each macro group, and the macros listed--&gt;
+[h:status = input(inputParams)]
+[h:abort(status)]
+
+
+&lt;!--Finally, go through each macro on the token (again!) and, if its box is checked, copy it to the new token.--&gt;
+
+[h,foreach(macro,macList),CODE:
+{
+    [macroIndexes =getMacroIndexes(macro)]
+    [foreach(index, macroIndexes),code:
+    {
+       [macProps = getMacroProps(index, &quot;json&quot;)]
+       [currLabel = json.get(macProps, &quot;label&quot;)]
+       [newLabel = currLabel + suffix]
+       [checked = eval(&quot;macro_&quot;+index)] 
+       [if(appendInc): macProps = json.set(macProps, &quot;label&quot;, newLabel)]
+       [if(checked),token(copyTo): createMacro(macProps)]
+     }]
+}]
+
+Macros copied.
+
+</command>
+    <label>Copy Macros</label>
+    <group>Macro Management Utilities</group>
+    <sortby></sortby>
+    <autoExecute>true</autoExecute>
+    <includeLabel>false</includeLabel>
+    <applyToTokens>true</applyToTokens>
+    <fontColorKey>black</fontColorKey>
+    <fontSize>1.00em</fontSize>
+    <minWidth></minWidth>
+    <maxWidth></maxWidth>
+    <allowPlayerEdits>false</allowPlayerEdits>
+    <toolTip></toolTip>
+    <commonMacro>false</commonMacro>
+    <compareGroup>true</compareGroup>
+    <compareSortPrefix>true</compareSortPrefix>
+    <compareCommand>true</compareCommand>
+    <compareIncludeLabel>true</compareIncludeLabel>
+    <compareAutoExecute>true</compareAutoExecute>
+    <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+  </net.rptools.maptool.model.MacroButtonProperties>
+  <net.rptools.maptool.model.MacroButtonProperties>
+    <saveLocation>CampaignPanel</saveLocation>
+    <index>8</index>
+    <colorKey>default</colorKey>
+    <hotKey>None</hotKey>
+    <command>&lt;!--General method to get macro groups and labels on a token. This version is to delete unwanted or unneeded macros--&gt;
+&lt;!--but it is possible to use this information for whatever purpose you might think of--&gt;
+
+&lt;!--Get a list of all macros on a token--&gt;
+[h,if(getMacros() != &quot;&quot;): fullMacList = getMacros(); assert(0, &quot;There are no macros on the token &lt;b&gt;&quot;+token.name+&quot;&lt;/b&gt;&quot;, 0)]
+[h:fullMacList = listSort(fullMacList,&quot;N+&quot;)]
+[h:fullMacList = json.fromList(fullMacList))]
+[h:macList = json.unique(fullMacList)]
+
+&lt;!--Initialize a few variables that will be used later on--&gt;
+[h:inputParams = &quot;&quot;]
+[h:groupArray = &quot;[]&quot;]
+[h:macrosInGroup = &quot;{}&quot;]
+
+&lt;!--Loop through the list of macros, and extract the GROUP property from the result of getMacroProps()--&gt;
+
+[h:tmpArray = &quot;&quot;]
+
+[h,foreach(macro,macList),CODE:
+{
+    [indexes = getMacroIndexes(macro)]
+    [foreach(index,indexes): tmpArray = if(getStrProp(getMacroProps(index),&quot;group&quot;) == &quot;&quot;, json.append(tmpArray, &quot;Top Level&quot;), json.append(tmpArray, getStrProp(getMacroProps(index), &quot;group&quot;)))]
+}]
+
+&lt;!--Since we need only the names of each unique group, use json.unique() to return a list of the unique entries in groupArray--&gt;
+[h:uniqueGroupArray = json.unique(tmpArray)]
+[h:uniqueGroupList = json.toList(uniqueGroupArray)]
+[h:uniqueGroupList = listSort(uniqueGroupList, &quot;N+&quot;)]
+
+[h,foreach(uniqueGroup, uniqueGroupList),CODE:
+{
+    [tempObj = &quot;&quot;]
+    [h,foreach(macro,macList),CODE:
+    {
+       [indexes = getMacroIndexes(macro)]
+       [h,foreach(index, indexes): tempObj = 
+              if(
+                  if(getStrProp(getMacroProps(index),&quot;group&quot;)==&quot;&quot;, &quot;Top Level&quot;, getStrProp(getMacroProps(index),&quot;group&quot;)) == uniqueGroup,
+ 	   listAppend(tempObj, macro), tempObj)]
+    }]
+    [h:macrosInGroup = json.set(macrosInGroup, uniqueGroup, tempObj)]
+}]
+
+[h,foreach(uniqueGroup, uniqueGroupList),CODE:
+{  
+   [macroLabels = listSort(json.get(macrosInGroup, uniqueGroup), &quot;N+&quot;)]
+   [h:inputParams = json.append(inputParams, &quot;group_&quot;+roll.count+&quot;|&quot;+uniqueGroup+&quot;||TAB&quot;)]
+   [h:inputParams = json.append(inputParams, &quot;.|&lt;html&gt;&lt;b&gt;Select the Macros you wish to delete. Note: There is no undo!&lt;/b&gt;&lt;/html&gt;||LABEL|SPAN=TRUE&quot;)]
+   [foreach(macroLabel, macroLabels),CODE:
+   {
+      [idx = getMacroIndexes(macroLabel)]
+      [foreach(index, idx): inputParams =if(if(getStrProp(getMacroProps(index),&quot;group&quot;)==&quot;&quot;, &quot;Top Level&quot;, getStrProp(getMacroProps(index),&quot;group&quot;)) == uniqueGroup, json.append(inputParams, &quot;macro_&quot;+index+&quot;|0|&lt;html&gt;&quot;+macroLabel+&quot; &quot;+if(getStrProp(getMacroProps(index),&quot;tooltip&quot;)==&quot;&quot;, &quot;(no tooltip available)&quot;, &quot;(&quot;+getStrProp(getMacroProps(index),&quot;tooltip&quot;)+&quot;)&quot;)+&quot;&lt;/html&gt;|CHECK&quot;), inputParams)]
+   }]
+}]
+
+&lt;!--Convert inputParams from a JSON string array to a string list, using ## as the list delimiter (required for this trick)--&gt;
+[h:inputParams = json.toList(inputParams, &quot;##&quot;)]
+
+&lt;!--pass inputParams to the input() function to generate an input dialog with tabs for each macro group, and the macros listed--&gt;
+[h:status = input(inputParams)]
+[h:abort(status)]
+
+
+&lt;!--Finally, go through each macro on the token (again!) and, if its box is checked, delete it.--&gt;
+[h:delMacroUndo = &quot;{}&quot;]
+[h,foreach(macro,macList),CODE:
+{
+    [macroIndexes =getMacroIndexes(macro)]
+    [foreach(index, macroIndexes),code:
+    {
+       [checked = eval(&quot;macro_&quot;+index)] 
+       [if(checked): delMacroUndo = json.set(delMacroUndo, macro, getMacroProps(index, &quot;json&quot;))]
+       [if(checked): removeMacro(index)]
+     }]
+}]
+
+[h:setProperty(&quot;Rumble.DeleteMacroUndo&quot;, delMacroUndo)]
+Macro(s) removed.
+</command>
+    <label>Delete Macros</label>
+    <group>Macro Management Utilities</group>
+    <sortby></sortby>
+    <autoExecute>true</autoExecute>
+    <includeLabel>false</includeLabel>
+    <applyToTokens>true</applyToTokens>
+    <fontColorKey>black</fontColorKey>
+    <fontSize>1.00em</fontSize>
+    <minWidth></minWidth>
+    <maxWidth></maxWidth>
+    <allowPlayerEdits>false</allowPlayerEdits>
+    <toolTip></toolTip>
+    <commonMacro>false</commonMacro>
+    <compareGroup>true</compareGroup>
+    <compareSortPrefix>true</compareSortPrefix>
+    <compareCommand>true</compareCommand>
+    <compareIncludeLabel>true</compareIncludeLabel>
+    <compareAutoExecute>true</compareAutoExecute>
+    <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+  </net.rptools.maptool.model.MacroButtonProperties>
+  <net.rptools.maptool.model.MacroButtonProperties>
+    <saveLocation>CampaignPanel</saveLocation>
+    <index>24</index>
+    <colorKey>default</colorKey>
+    <hotKey>None</hotKey>
+    <command>[for(x,10000,10222, 1, &quot;&lt;br&gt;&quot;),code:{
+
+[r:x]: &amp;#[r:x];
+
+}]</command>
+    <label>Test HTML</label>
+    <group>Macro Management Utilities</group>
+    <sortby></sortby>
+    <autoExecute>true</autoExecute>
+    <includeLabel>false</includeLabel>
+    <applyToTokens>false</applyToTokens>
+    <fontColorKey>black</fontColorKey>
+    <fontSize>1.00em</fontSize>
+    <minWidth></minWidth>
+    <maxWidth></maxWidth>
+    <allowPlayerEdits>false</allowPlayerEdits>
+    <toolTip></toolTip>
+    <commonMacro>false</commonMacro>
+    <compareGroup>true</compareGroup>
+    <compareSortPrefix>true</compareSortPrefix>
+    <compareCommand>true</compareCommand>
+    <compareIncludeLabel>true</compareIncludeLabel>
+    <compareAutoExecute>true</compareAutoExecute>
+    <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+  </net.rptools.maptool.model.MacroButtonProperties>
+  <net.rptools.maptool.model.MacroButtonProperties>
+    <saveLocation>CampaignPanel</saveLocation>
+    <index>9</index>
+    <colorKey>default</colorKey>
+    <hotKey>None</hotKey>
+    <command>[h:deletedMacros = getProperty(&quot;Rumble.DeleteMacroUndo&quot;)]
+
+[h:deletedMacroList = json.fields(deletedMacros)]
+
+[h:status = input(&quot;macToRestore|&quot;+deletedMacroList+&quot;|Choose Macro to Restore|LIST|SELECT=0 VALUE=STRING&quot;)]
+[h:abort(status)]
+
+[h:restoreProps = json.get(deletedMacros, macToRestore)]
+
+[h:createMacro(restoreProps)]
+
+&lt;i&gt;[r:macToRestor]&lt;/i&gt; macro restored.</command>
+    <label>Undo Macro Delete</label>
+    <group>Macro Management Utilities</group>
+    <sortby></sortby>
+    <autoExecute>true</autoExecute>
+    <includeLabel>false</includeLabel>
+    <applyToTokens>false</applyToTokens>
+    <fontColorKey>black</fontColorKey>
+    <fontSize>1.00em</fontSize>
+    <minWidth></minWidth>
+    <maxWidth></maxWidth>
+    <allowPlayerEdits>false</allowPlayerEdits>
+    <toolTip></toolTip>
+    <commonMacro>false</commonMacro>
+    <compareGroup>true</compareGroup>
+    <compareSortPrefix>true</compareSortPrefix>
+    <compareCommand>true</compareCommand>
+    <compareIncludeLabel>true</compareIncludeLabel>
+    <compareAutoExecute>true</compareAutoExecute>
+    <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+  </net.rptools.maptool.model.MacroButtonProperties>
+</list>
