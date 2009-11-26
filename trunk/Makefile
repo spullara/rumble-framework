@@ -16,7 +16,7 @@ burst:
 macros:
 	cd macros;\
 	zip -r ../builds/macros.zip *;\
-	mv ../builds/macros.zip ../builds/macros.rptok;\
+	mv ../builds/macros.zip ../builds/macros.mtmacros;\
 	cd ..;\
 
 .PHONY: npc
@@ -37,7 +37,7 @@ pc:
 properties:
 	cd properties;\
 	zip -r ../builds/properties.zip *;\
-	mv ../builds/properties.zip ../builds/properties.rptok;\
+	mv ../builds/properties.zip ../builds/properties.mtprops;\
 	cd ..;\
 
 all: lib4e burst macros npc pc properties
