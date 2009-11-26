@@ -1,0 +1,3 @@
+- Lib4e has entries that run at boot to create links or references to other macros.  See the lib4e/context.xml file and search for <int>.  If you start a new campaign and just add the lib4e macro these references will not be created.  Instead you need to save the campaign after lib4e is loaded and then reload for the boot time references to be created.
+
+- Attacks are judged based on a tokens pc / npc state.  pcs can't attack npcs and vice versa.  Make sure the pc/npc value is set correctly or you may not get the option to attack the right tokens.
