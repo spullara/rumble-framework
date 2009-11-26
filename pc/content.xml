@@ -1,0 +1,2021 @@
+<net.rptools.maptool.model.Token>
+  <id>
+    <baGUID>wKgBWjHhjy6/AgAAAIgBEA==</baGUID>
+  </id>
+  <beingImpersonated>false</beingImpersonated>
+  <imageAssetMap>
+    <entry>
+      <null/>
+      <net.rptools.lib.MD5Key>
+        <id>c72cc36c80f99338c1eb958459a80fc5</id>
+      </net.rptools.lib.MD5Key>
+    </entry>
+  </imageAssetMap>
+  <x>650</x>
+  <y>-50</y>
+  <z>49</z>
+  <anchorX>0</anchorX>
+  <anchorY>0</anchorY>
+  <sizeScale>1.0</sizeScale>
+  <lastX>0</lastX>
+  <lastY>0</lastY>
+  <snapToScale>true</snapToScale>
+  <width>200</width>
+  <height>200</height>
+  <scaleX>1.0</scaleX>
+  <scaleY>1.0</scaleY>
+  <sizeMap>
+    <entry>
+      <java-class>net.rptools.maptool.model.SquareGrid</java-class>
+      <net.rptools.maptool.model.GUID>
+        <baGUID>fwABAc9lFSoFAAAAKgABAQ==</baGUID>
+      </net.rptools.maptool.model.GUID>
+    </entry>
+  </sizeMap>
+  <snapToGrid>true</snapToGrid>
+  <isVisible>true</isVisible>
+  <name>Blank PC Template</name>
+  <ownerType>0</ownerType>
+  <tokenShape>CIRCLE</tokenShape>
+  <tokenType>NPC</tokenType>
+  <layer>TOKEN</layer>
+  <propertyType>Basic</propertyType>
+  <isFlippedX>false</isFlippedX>
+  <isFlippedY>false</isFlippedY>
+  <sightType>Normal</sightType>
+  <hasSight>true</hasSight>
+  <state>
+    <entry>
+      <string>Immed_Reaction_Used</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Curse</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_Untyped</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>AttackBonus</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_Fire</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Dying</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Invisible</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>OngoingForce</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_Radiant</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Surprised</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>MinusThree</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>MinusFour</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>OngoingLightning</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>OngoingUntyped</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_Cold</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Sneak_Attack_Used</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Stunned</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Dazed</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Unconscious</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Prone</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>OngoingNecrotic</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_Thunder</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Slowed</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_Acid</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_All</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Concealed</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>CombatChallenge</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Regeneration</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>SecondWindBonus</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_Necrotic</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Natures_Wrath</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_Radiant</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>DivineChallenge</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>OngoingCold</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Bloodied</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Immobilized</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_Cold</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>TotalConcealment</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>CombatAdvantage_All</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>OngoingPoison</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>PlusFive</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>OngoingFire</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_Poison</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>OngoingThunder</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_Necrotic</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>DefensePenalty</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Dead</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Aegis</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_Lightning</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Incapacitated</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>AP_Used</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>MinusTwo</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>MinusFive</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>MinusOne</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Weakened</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_Psychic</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Quarry</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_Acid</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_Poison</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>OngoingAcid</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Deafened</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>BasicMark</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_Untyped</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>OngoingPsychic</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>PlusTwo</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_Psychic</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Blinded</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Petrified</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Oath</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_Force</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_Lightning</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Dominated</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Curse_Damage_Used</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_All</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_Thunder</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>PlusThree</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>PlusOne</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>AttackPenalty</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Quarry_Damage_Used</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Reticle</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>PlusFour</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>DefenseBonus</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Resist_Fire</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Restrained</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>Vlnrbl_Force</string>
+      <boolean>false</boolean>
+    </entry>
+  </state>
+  <propertyMap class="net.rptools.CaseInsensitiveHashMap">
+    <store>
+      <entry>
+        <string>skills</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Skills</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>halflevel</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>HalfLevel</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>actionpoints</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>ActionPoints</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>ongoingdamage</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>OngoingDamage</key>
+          <value class="string">{}</value>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>strbonus</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>StrBonus</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>wisdom</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Wisdom</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>-------------data storage-----------</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>-------------DATA STORAGE-----------</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>savebonusreminders</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>SaveBonusReminders</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>xp</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>XP</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>currhp</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>CurrHP</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>gensavemod</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>GenSaveMod</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>currentdamageinfo</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>currentDamageInfo</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>race</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Race</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>level</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Level</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>-------------------|pc core|-------------------</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>-------------------|PC CORE|-------------------</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>intbonus</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>IntBonus</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>intelligence</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Intelligence</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>secondwind</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>SecondWind</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>bloodied</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Bloodied</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>surgevalue</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>SurgeValue</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>passivepercep</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>PassivePercep</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>wisbonus</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>WisBonus</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>class</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Class</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>resist</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Resist</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>vulnerable</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Vulnerable</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>genwillmod</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>GenWillMod</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>passiveinsight</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>PassiveInsight</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>will</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Will</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>conbonus</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>ConBonus</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>lastattackadjustment</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>LastAttackAdjustment</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>apspent</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>APSpent</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>-------------resist and vulnerability-------------</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>-------------RESIST AND VULNERABILITY-------------</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>constitution</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Constitution</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>genacmod</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>GenACMod</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>powers</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Powers</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>currenthitinfo</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>currentHitInfo</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>hp</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>HP</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>fortitude</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Fortitude</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>genattmod</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>GenAttMod</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>tempresist</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>TempResist</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>surgeperday</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>SurgePerDay</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>miscnotes</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>MiscNotes</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>genfortmod</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>GenFortMod</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>dexterity</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Dexterity</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>surgeremaining</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>SurgeRemaining</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>chabonus</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>ChaBonus</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>attstats</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>attStats</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>--------------misc-----------------</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>--------------MISC-----------------</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>temphp</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>TempHP</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>pronoun3</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Pronoun3</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>currentstates</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>CurrentStates</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>genothermod</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>GenOtherMod</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>pronoun1</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Pronoun1</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>pronoun2</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Pronoun2</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>externaltiming</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>ExternalTiming</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>markedby</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>MarkedBy</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>dexbonus</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>DexBonus</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>currentattackoptions</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>currentAttackOptions</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>currentpowerinfo</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>currentPowerInfo</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>isminion</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>IsMinion</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>initbonus</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>InitBonus</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>speed</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Speed</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>strength</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Strength</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>lastdefenseadjustment</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>LastDefenseAdjustment</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>------------------|bonus|-------------------</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>------------------|BONUS|-------------------</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>procstatedata</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>procStateData</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>------------------|powers|-------------------</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>------------------|Powers|-------------------</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>--------------skills-----------------</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>--------------SKILLS-----------------</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>displaydefs</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>DisplayDefs</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>gendammod</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>GenDamMod</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>charisma</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Charisma</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>utility</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Utility</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>dammultiplier</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>DamMultiplier</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>ac</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>AC</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>tempvulnerable</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>TempVulnerable</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>maxhp</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>MaxHP</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>dmgstats</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>dmgStats</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>leaderhealing</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>LeaderHealing</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>reflex</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>Reflex</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+      <entry>
+        <string>genrefmod</string>
+        <net.rptools.CaseInsensitiveHashMap_-KeyValue>
+          <key>GenRefMod</key>
+          <outer-class reference="../../../.."/>
+        </net.rptools.CaseInsensitiveHashMap_-KeyValue>
+      </entry>
+    </store>
+  </propertyMap>
+  <macroPropertiesMap>
+    <entry>
+      <int>68</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>68</index>
+        <colorKey>red</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Second Wind@Lib:4e&quot;):&quot;&quot;]
+[h:setMacroProps(&quot;Second Wind&quot;, &quot;color=gray;&quot;)]</command>
+        <label>Second Wind</label>
+        <group>2. Encounter</group>
+        <sortby>9</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>white</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>137</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>137</index>
+        <colorKey>blue</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Initiative@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>&lt;html&gt;&lt;b&gt;Init&lt;/b&gt;&lt;/html&gt;</label>
+        <group></group>
+        <sortby>3</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>white</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip>Initiative</toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>136</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>136</index>
+        <colorKey>red</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;EndTurn@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>&lt;html&gt;&lt;b&gt;End Turn&lt;/b&gt;&lt;/html&gt;</label>
+        <group></group>
+        <sortby>1</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>white</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip>End Turn</toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>139</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>139</index>
+        <colorKey>blue</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Saving Throw@Lib:4e&quot;):&quot;&quot;]
+[h:abort(0)]</command>
+        <label>&lt;html&gt;&lt;b&gt;Save&lt;/b&gt;&lt;/html&gt;</label>
+        <group></group>
+        <sortby>5</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>white</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip>Saving Throw</toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>138</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>138</index>
+        <colorKey>white</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Show Power Card@Lib:4e&quot;):&quot;&quot;][h:abort(0)]</command>
+        <label>&lt;html&gt;&lt;b&gt;Pwr Card&lt;/b&gt;&lt;/html&gt;</label>
+        <group></group>
+        <sortby>7</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip>Power Card</toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>141</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>141</index>
+        <colorKey>blue</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Skill Check@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>&lt;html&gt;&lt;b&gt;Skill&lt;/b&gt;&lt;/html&gt;</label>
+        <group></group>
+        <sortby>4</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>white</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip>Skill Check</toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>133</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>133</index>
+        <colorKey>white</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Display Character Sheet@Lib:4e&quot;):&quot;&quot;]
+[h:abort(0)]</command>
+        <label>&lt;html&gt;&lt;b&gt;Sheet&lt;/b&gt;&lt;/html&gt;</label>
+        <group></group>
+        <sortby>6</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip>&lt;html&gt;&lt;b&gt;Displays a basic character sheet&lt;/b&gt;&lt;/html&gt;</toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>135</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>135</index>
+        <colorKey>yellow</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Edit Powers@Lib:4e&quot;):&quot;&quot;]
+[h:abort(0)]</command>
+        <label>&lt;html&gt;&lt;b&gt;Edit Powers&lt;/b&gt;&lt;/html&gt;</label>
+        <group></group>
+        <sortby>99</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip>Add/Edit Powers</toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>134</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>134</index>
+        <colorKey>yellow</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Edit Character@Lib:4e&quot;):&quot;&quot;]
+[h:abort(0)]</command>
+        <label>&lt;html&gt;&lt;b&gt;Edit Character&lt;/b&gt;&lt;/html&gt;</label>
+        <group></group>
+        <sortby>999</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip>Edit Character</toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>152</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>152</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[r:procMarks(getName(), &quot;Curse&quot;)]</command>
+        <label>Warlock&apos;s Curse</label>
+        <group>6. Combat Options</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>true</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>153</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>153</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[r:procMarks(getName(), &quot;Aegis&quot;)]</command>
+        <label>Swordmage Aegis</label>
+        <group>6. Combat Options</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>154</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>154</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[r:procMarks(token.name, &quot;DivineChallenge&quot;)]</command>
+        <label>Divine Challenge</label>
+        <group>6. Combat Options</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>true</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>155</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>155</index>
+        <colorKey>white</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Striker Damage@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>Striker Damage</label>
+        <group>1. At-Will</group>
+        <sortby>999</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>156</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>156</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[r:procMarks(getName(), &quot;CombatChallenge&quot;)]</command>
+        <label>Combat Challenge</label>
+        <group>6. Combat Options</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>157</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>157</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;CopyPowerToOtherToken@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>Copy Power to Other Token</label>
+        <group>Power Management</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip></toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>158</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>158</index>
+        <colorKey>blue</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Delay Turn@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>&lt;html&gt;&lt;b&gt;Delay Turn&lt;/b&gt;&lt;/html&gt;</label>
+        <group></group>
+        <sortby>2</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>white</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip></toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>146</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>146</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[h,if(hasProperty(&quot;rfw.statCollection&quot;)==0): toggle = 0; toggle = getProperty(&quot;rfw.statCollection&quot;)]
+[h:setProperty(&quot;rfw.statCollection&quot;, 1-toggle)]
+Statistics Collection [r:if(getProperty(&quot;rfw.statCollection&quot;)==1, &quot;on.&quot;, &quot;off.&quot;)]</command>
+        <label>Toggle Statistics Collection</label>
+        <group>Character Management</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>147</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>147</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Show Play Stats@Lib:4e&quot;):&quot;&quot;]
+[h:abort(0)]
+</command>
+        <label>Game Stats</label>
+        <group>Character Management</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>29</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>29</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[h:status=input(
+&quot;amtHealed|0|Enter amount healed&quot;)]
+[h:abort(status)]
+[r:procHealing(amtHealed, &quot;regains&quot;, &quot;General&quot;, 0)]</command>
+        <label>General Healing</label>
+        <group>8. Damage and Healing</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip></toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>148</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>148</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[r:procMarks(getName(), &quot;Quarry&quot;)]</command>
+        <label>Hunter&apos;s Quarry</label>
+        <group>6. Combat Options</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>true</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>149</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>149</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[r:procMarks(getName(), &quot;BasicMark&quot;)]</command>
+        <label>Basic Mark</label>
+        <group>6. Combat Options</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>true</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>150</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>150</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[r:procMarks(token.name, &quot;Natures_Wrath&quot;)]</command>
+        <label>Nature&apos;s Wrath</label>
+        <group>6. Combat Options</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>true</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>30</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>30</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[r:procHealing(0,&quot;regains&quot;,&quot;Healing Surge&quot;,0)]</command>
+        <label>Healing Surge</label>
+        <group>8. Damage and Healing</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>151</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>151</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[r:procMarks(getName(), &quot;Oath&quot;)]</command>
+        <label>Oath of Enmity</label>
+        <group>6. Combat Options</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>103</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>103</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Extended Rest@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>Extended Rest</label>
+        <group>Resting</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>true</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>100</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>100</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Temp HP@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>Gain Temp HP</label>
+        <group>8. Damage and Healing</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>true</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>101</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>101</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Short Rest@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>Short Rest</label>
+        <group>Resting</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>true</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>97</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>97</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Edit Powers@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>Add/Edit Powers</label>
+        <group>Power Management</group>
+        <sortby>1</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>true</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>108</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>108</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Saving Throw@Lib:4e&quot;):&quot;&quot;]
+[h:abort(0)]</command>
+        <label>Saving Throw</label>
+        <group>7. Conditions and Saves</group>
+        <sortby>1</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>true</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>107</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>107</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Display Power Usage@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>Show Power Use</label>
+        <group>Power Management</group>
+        <sortby>5</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>true</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>117</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>117</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[h:bar.Health=CurrHP/MaxHP]</command>
+        <label>Set Health Bar</label>
+        <group>8. Damage and Healing</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <toolTip>Sets the health bar to the appropriate value.</toolTip>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>116</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>116</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Duplicate Power@Lib:4e&quot;):&quot;&quot;]
+[h:abort(0)]</command>
+        <label>Duplicate Power</label>
+        <group>Power Management</group>
+        <sortby>3</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>114</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>114</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;RechargePower@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>Recharge Powers</label>
+        <group>Power Management</group>
+        <sortby>4</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>127</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>127</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Action Point@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>Use Action Point</label>
+        <group>Resting</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>125</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>125</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Clear Conditions@Lib:4e&quot;):&quot;&quot;]</command>
+        <label>Manually Remove Conditions</label>
+        <group>7. Conditions and Saves</group>
+        <sortby>3</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>124</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>124</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;Add New Condition@Lib:4e&quot;):&quot;&quot;]
+[h:abort(0)]</command>
+        <label>Manually Set Conditions</label>
+        <group>7. Conditions and Saves</group>
+        <sortby>2</sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+    <entry>
+      <int>120</int>
+      <net.rptools.maptool.model.MacroButtonProperties>
+        <saveLocation>Token</saveLocation>
+        <index>120</index>
+        <colorKey>default</colorKey>
+        <hotKey>None</hotKey>
+        <command>[macro(&quot;General Damage@Lib:4e&quot;):&quot;&quot;]
+[h:abort(0)]</command>
+        <label>Take Misc Damage</label>
+        <group>8. Damage and Healing</group>
+        <sortby></sortby>
+        <autoExecute>true</autoExecute>
+        <includeLabel>false</includeLabel>
+        <applyToTokens>false</applyToTokens>
+        <fontColorKey>black</fontColorKey>
+        <fontSize>1.00em</fontSize>
+        <minWidth></minWidth>
+        <maxWidth></maxWidth>
+        <allowPlayerEdits>false</allowPlayerEdits>
+        <commonMacro>false</commonMacro>
+        <compareGroup>true</compareGroup>
+        <compareSortPrefix>true</compareSortPrefix>
+        <compareCommand>true</compareCommand>
+        <compareIncludeLabel>true</compareIncludeLabel>
+        <compareAutoExecute>true</compareAutoExecute>
+        <compareApplyToSelectedTokens>true</compareApplyToSelectedTokens>
+      </net.rptools.maptool.model.MacroButtonProperties>
+    </entry>
+  </macroPropertiesMap>
+  <speechMap/>
+</net.rptools.maptool.model.Token>
