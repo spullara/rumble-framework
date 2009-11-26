@@ -528,7 +528,7 @@
           <highPriority>false</highPriority>
           <ownerOnly>false</ownerOnly>
           <gmOnly>false</gmOnly>
-          <defaultValue>(HalfLevel+InitBonus+DexBonus)</defaultValue>
+          <defaultValue>{HalfLevel+InitBonus+DexBonus}</defaultValue>
         </net.rptools.maptool.model.TokenProperty>
         <net.rptools.maptool.model.TokenProperty>
           <name>InitBonus</name>
