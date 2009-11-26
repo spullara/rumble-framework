@@ -16,7 +16,7 @@ burst:
 macros:
 	cd macros;\
 	zip -r ../builds/macros.zip *;\
-	mv ../builds/macros.zip ../builds/macros.mtmacros;\
+	mv ../builds/macros.zip ../builds/macros.mtmacset;\
 	cd ..;\
 
 .PHONY: npc
