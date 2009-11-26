@@ -2212,7 +2212,7 @@ case &quot;Leader&quot;:
 	&quot;CharLevel|&quot;+CharLevel+&quot;|&lt;html&gt; &amp;nbsp; Level&lt;/html&gt;&quot;,
 	&quot;XP|&quot;+XP+&quot;|&lt;html&gt; &amp;nbsp; XP&lt;/html&gt;&quot;,
 	&quot;Speed|&quot;+Speed+&quot;|&lt;html&gt; &amp;nbsp; Character Speed&lt;/html&gt;&quot;,
-	&quot;InitBonus|&quot;+InitBonus+&quot;|&lt;html&gt; &amp;nbsp; Initiative Bonus&lt;/html&gt;&quot;,
+	&quot;InitBonus|&quot;+InitBonus+&quot;|&lt;html&gt; &amp;nbsp; Initiative Bonus  (Bonus Only, Dex and Half Level are autocalc)&lt;/html&gt;&quot;,
 &quot;.|&lt;html&gt;&lt;b&gt;&lt;u&gt;Miscellaneous&lt;/u&gt;&lt;/b&gt;&lt;/html&gt;||LABEL|SPAN=TRUE&quot;,
 	&quot;ActionPoints|&quot;+ActionPoints+&quot;|&lt;html&gt; &amp;nbsp; Action Points&lt;/html&gt;&quot;,
 	&quot;PassivePercep|&quot;+PassivePercep+&quot;|&lt;html&gt; &amp;nbsp; Passive Perception Score&lt;/html&gt;&quot;,
@@ -4863,7 +4863,7 @@ case &quot;Warlock&apos;s Curse&quot;:{
         <index>93</index>
         <colorKey>default</colorKey>
         <hotKey>None</hotKey>
-        <command>[h:Init=1d20+InitBonus]
+        <command>[h:Init=1d20+Initiative]
 
 [r,if(isPC()),CODE:
 {
@@ -7066,3 +7066,4 @@ case &quot;null&quot;: {};]
   </macroPropertiesMap>
   <speechMap/>
 </net.rptools.maptool.model.Token>
+
