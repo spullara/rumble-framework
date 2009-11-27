@@ -1,0 +1,1116 @@
+Character Sheet
+Player Name
+
+Dayereth
+Character Name
+
+8
+Level
+
+Rogue
+Class Height Weight Paragon Path Epic Destiny
+
+13,000
+Total XP RPGA Number
+
+Eladrin
+Race
+
+Medium
+Size Age
+
+Male
+Gender
+
+Unaligned
+Alignment
+
+The Raven Queen
+Deity Adventuring Company
+
+INITIATIVE
+SCORE DEX 1/2 LVL MISC SCORE DEFENSE
+
+DEFENSES 4
+10 + ARMOR/ 1/2 LVL ABIL CLASS SCORE FEAT ENH MISC MISC
+
+MOVEMENT
+BASE ARMOR ITEM MISC
+
+12
+
+Initiative
+
+4
+
+4
+
+CONDITIONAL MODIFIERS
+
+21
+
+AC
+
+14
+
+6
+
+1
+
+6
+
+Speed
+
+(Squares)
+
+6
+
+SPECIAL MOVEMENT
+
+CONDITIONAL BONUSES
+
+ABILITY SCORES
+SCORE ABILITY ABIL MOD MOD + 1/2 LVL DEFENSE
+
+10 + 1/2 LVL ABIL
+
+SENSES
+CLASS FEAT ENH MISC MISC SCORE PASSIVE SENSE BASE SKILL BONUS
+
+13 13 18 12 16 13
+
+STR Strength
+Constitution
+
+1 1 4 1 3 1 HIT POINTS
+
+5 5 8 5 7 5
+
+17
+
+FORT 14
+
+1
+
+2
+
+17 22
+
+Passive Insight Passive Perception
+
+10 + 10 +
+
+7 12
+
+CON DEX
+
+CONDITIONAL BONUSES
+
+DEFENSE
+
+10 + 1/2 LVL ABIL
+
+SPECIAL SENSES CLASS FEAT ENH MISC MISC
+
+Low-light Vision
+
+Dexterity
+
+22
+
+REF
+
+14
+
+4
+
+2
+
+2
+ABILITY: ATT BONUS
+
+INT Intelligence
+Wisdom
+
+ATTACK WORKSPACE
+Melee Basic Attack - Unarmed
+1/2 LVL ABIL CLASS PROF FEAT ENH MISC
+
+CONDITIONAL BONUSES
+
+WIS CHA
+
+DEFENSE
+
+10 + 1/2 LVL ABIL
+
+CLASS
+
+FEAT
+
+ENH
+
+MISC
+
+MISC
+
++ 5
+ABILITY: ATT BONUS
+
+4
+1/2 LVL
+
+1
+ABIL CLASS PROF FEAT ENH MISC
+
+20
+
+WILL 14
+
+3
+
+2
+
+1
+
+Ranged Basic Attack - Unarmed
+
+CONDITIONAL BONUSES
+
+Charisma
+
++ 8 ACTION POINTS
+SURGES/DAY
+
+4
+
+4
+
+MAX HP
+BLOODIED
+
+HEALING SURGES
+SURGE VALUE
+
+60
+CURRENT HIT POINTS
+
+30
+1/2 HP
+
+16
+1/4 HP
+
+7
+CURRENT SURGE USES
+
+MILESTONES 0 1 2 ADDITIONAL EFFECTS FOR SPENDING ACTION POINTS
+
+Action Points
+
+ACTION POINTS 1 2 3
+
+DAMAGE WORKSPACE
+ABILITY: DAMAGE
+
+Melee Basic Attack - Unarmed
+ABIL FEAT ENH MISC MISC
+
+1d4+1 RACE FEATURES
+Trance - Meditate aware 4 hours instead of sleep.
+ABILITY: DAMAGE
+
+1
+ABIL FEAT ENH MISC MISC
+
+Ranged Basic Attack - Unarmed
+
+SECOND WIND 1/ENCOUNTER
+TEMPORARY HIT POINTS
+
+USED
+
+Eladrin Weapon Proficiency - Proficient with longsword. Eladrin Education - Training in any one additional skill. Eladrin Will - +1 Will; +5 to saving throws against charm.
+
+1d4+4
+
+4 BASIC ATTACKS
+
+DEATH SAVING THROW FAILURES
+SAVING THROW MODS +5 Racial bonus against charm effects RESISTANCES CURRENT CONDITIONS AND EFFECTS
+
+ATTACK
+
+DEFENSE
+
+WEAPON OR POWER
+
+DAMAGE
+
+Fey Step - Use fey step as an encounter power. Fey Origin - Your origin is fey, not natural.
+
+9 11 14 11
+
+vs vs vs vs
+
+AC AC AC AC
+
+Thundering Short sword +1 Magic Dagger +2 (Melee) Magic Dagger +2 (Range)
+
+1d6+2 1d4+3 1d4+6
+
+Inescapable Hand Crossbow +1 1d6+5
+
+SKILLS
+BONUS SKILL NAME ABIL MOD + 1/2 LVL TRND (+5) ARMOR PENALTY MISC
+
+CLASS / PATH / DESTINY FEATURES
+First Strike - At encounter start, get combat advantage against foes that haven't acted yet.
+n/a 2
+
+FEATS
+Backstabber - Sneak Attack dice increase to d8s Improved Initiative - +4 to initiative checks Nimble Blade - +1 to attacks with light blade and combat advantage Slaying Action - Deal Sneak Attack damage again with an action point Moon Elf Resilience - Spend healing surge as free action
+
+13 7 10 10 5 12 5 7 7 7 5 7 12 5 15 5 13
+
+Acrobatics Arcana Athletics Bluff Diplomacy Dungeoneering Endurance Heal History Insight Intimidate Nature Perception Religion Stealth Streetwise Thievery
+
+DEX INT STR CHA CHA WIS CON WIS INT WIS CHA WIS WIS INT DEX CHA DEX
+
+8 5 5 5 5 7 5 7 5 7 5 7 7 5 8 5 8
+
+5 0 5 5 0 5 0 0 0 0 0 0 5 0 5 0 5 n/a n/a n/a n/a n/a n/a n/a n/a 2 2 n/a n/a
+
+Rogue Tactics - Choose one of the rogue tactics. Brutal Scoundrel - Add Str mod to Sneak Attack damage. Rogue Weapon Talent - Damage die increases one size with shuriken; +1 on attacks with daggers.
+
+n/a
+
+Sneak Attack - Once per round, if you have combat
+
+advantage and hit with a crossbow, light blade, or sling, deal when using fey step in certain situations extra damage.
+
+LANGUAGES KNOWN
+Common, Elven
+
+Dayereth
+
+Page 1
+
+POWER INDEX
+List your powers below. Check the box when the power is used. Clear the box when the power renews.
+
+MAGIC ITEM INDEX
+List your powers below. Check the box when the power is used. Clear the box when the power renews.
+
+CHARACTER PORTRAIT
+
+AT-WILL POWERS
+Deft Strike Riposte Strike
+WEAPON WEAPON WEAPON WEAPON ARMOR ARMS FEET
+
+MAGIC ITEMS
+Magic Dagger +2 (E) Thundering Short sword +1 (E) Inescapable Hand Crossbow +1
+
+Veteran's Leather Armor +1 (E) Bracers of Defense (heroic tier) (E)
+
+ENCOUNTER POWERS
+Fey Step Torturous Strike Bait and Switch Circling Predator
+HANDS HEAD NECK RING RING WAIST
+
+Elven Cloak +2 (E)
+
+Belt of Vigor (heroic tier) (E) Potion of Healing (heroic tier) () (2)
+
+PERSONALITY TRAITS
+
+DAILY POWERS
+Easy Target Clever Riposte
+
+MANNERISMS AND APPEARANCE
+UTILITY POWERS
+Sneak in the Attack Vexing Flanker
+
+Daily Item Powers Per Day
+Heroic (1-10) Paragon (11-20) Epic (21-30) Milestone Milestone Milestone / / / / / / / / /
+
+CHARACTER BACKGROUND
+
+OTHER EQUIPMENT
+Leather Armor Dagger (2) Adventurer's Kit
+
+RITUALS / ALCHEMY
+
+COMPANIONS AND ALLIES
+
+SESSION AND CAMPAIGN NOTES
+
+COINS AND OTHER WEALTH
+Money on hand: 14 pp; 91 gp Stored money: Encumbrance: 72 / 130
+
+Dayereth
+
+Page 2
+
+CHARACTER NAME
+
+Dayereth
+PLAYER NAME
+
+Second Wind
+KEYWORDS USED
+
+RACE
+
+Eladrin
+
+CLASS
+
+Rogue
+
+LEVEL
+
+8
+
+Standard ACTION vs ATTACK DEFENSE
+
+Personal RANGE Self TARGET
+
+HP 60 Spd 6 Init +12 17
+
+13 STR 13 CON 18 DEX 12 INT 16 WIS 13 CHA
+Passive Insight
+
+AC 21 Fort 17 Ref 22 Will 20
+Passive Perception
+
+Effect: You spend a healing surge and regain 16 hit points. You gain a +2 bonus to all defenses until the start of your next turn.
+
+22
+
+ADDITIONAL EFFECTS
+
+CLASS
+
+LEVEL
+
+BOOK
+
+PH
+®
+
+PLAY DATA
+
+®
+
+®
+
+ENCOUNTER ACTION
+
+Deft Strike
+KEYWORDS
+
+Riposte Strike
+USED KEYWORDS
+
+Fey Step
+USED KEYWORDS
+
+Martial, Weapon
+* *
+
+Martial, Weapon
+*
+
+Teleportation Personal RANGE vs
+
+USED
+
+Standard ACTION 12 ATTACK
+
+Melee or Ranged weapon RANGE
+
+Standard ACTION 12 ATTACK
+
+Melee weapon RANGE
+
+Move ACTION
+
+vs
+
+AC DEFENSE
+
+One creature TARGET
+
+vs
+
+AC DEFENSE
+
+One creature TARGET ATTACK
+
+DEFENSE
+
+TARGET
+
+Requirement: You must be wielding a crossbow, a light blade, or a sling. Special: You can move 2 squares before the attack. Attack: Dexterity vs. AC Hit: 1[W] + Dexterity modifier (+4) damage. Increase damage to 2[W] + Dexterity modifier (+4) at 21st level. Thundering Short sword +1: +12 attack, 1d6+5 damage Magic Dagger +2: +14 attack, 1d4+6 damage
+ADDITIONAL EFFECTS
+
+Requirement: You must be wielding a light blade. Attack: Dexterity vs. AC Hit: 1[W] + Dexterity modifier (+4) damage. If the target attacks you before the start of your next turn, you make your riposte against the target as an immediate interrupt: a Strength vs. AC attack that deals 1[W] + Strength modifier (+1) damage. Increase damage to 2[W] + Dexterity modifier (+4) and riposte to 2[W] + Strength modifier (+1) at 21st level. Thundering Short sword +1: +12 attack, 1d6+5 damage Magic Dagger +2: +14 attack, 1d4+6 damage
+ADDITIONAL EFFECTS
+
+Effect: Teleport up to 5 squares.
+
+ADDITIONAL EFFECTS
+
++2d8+1 to damage once per round (Sneak Attack) +1 to attack rolls when you have combat advantage - Nimble Blade.
+CLASS
+
++2d8+1 to damage once per round (Sneak Attack) +1 to attack rolls when you have combat advantage - Nimble Blade.
+CLASS
+
+Rogue
+
+LEVEL
+
+1
+
+BOOK
+
+PH
+®
+
+Rogue
+
+LEVEL
+
+1
+
+BOOK
+
+PH
+®
+
+CLASS
+
+Racial Power
+
+LEVEL
+
+*
+
+BOOK
+
+PH
+®
+
+AT-WILL POWER
+
+AT-WILL POWER
+
+ENCOUNTER POWER
+
+Torturous Strike
+KEYWORDS
+
+Bait and Switch
+USED KEYWORDS
+
+Circling Predator
+USED KEYWORDS
+
+Martial, Weapon
+*
+
+Martial, Weapon
+*
+
+Martial, Weapon
+*
+
+USED
+
+Standard ACTION 12 ATTACK
+
+Melee weapon RANGE
+
+Standard ACTION 12 ATTACK
+
+Melee weapon RANGE
+
+Standard ACTION 12 ATTACK
+
+Melee weapon RANGE
+
+vs
+
+AC DEFENSE
+
+One creature TARGET
+
+vs
+
+Will DEFENSE
+
+One creature TARGET
+
+vs
+
+AC DEFENSE
+
+One creature TARGET
+
+Requirement: You must be wielding a light blade. Attack: Dexterity vs. AC Hit: 2[W] + Dexterity modifier (+4) damage. Brutal Scoundrel: You gain a bonus to the damage roll equal to your Strength modifier (+1). Thundering Short sword +1: +12 attack, 2d6+6 damage Magic Dagger +2: +14 attack, 2d4+7 damage
+ADDITIONAL EFFECTS
+
+Requirement: You must be wielding a light blade. Attack: Dexterity vs. Will Hit: 2[W] + Dexterity modifier (+4) damage. In addition, you switch places with the target and can then shift 1 square. Artful Dodger: You can shift a number of squares equal to your Charisma modifier (+1). Thundering Short sword +1: +12 attack, 2d6+5 damage Magic Dagger +2: +14 attack, 2d4+6 damage
+ADDITIONAL EFFECTS
+
+Requirement: You must be wielding a light blade. Hit: 1[W] + Dexterity modifier (+4) damage. Effect: You can shift 1 square and must end adjacent to the target. Then make a secondary attack against it. Secondary Attack: Dexterity vs. AC Hit: 1[W] + Dexterity modifier (+4) damage, and you gain combat advantage against the target until the end of your next turn. Thundering Short sword +1: +12 attack, 1d6+5 damage Magic Dagger +2: +14 attack, 1d4+6 damage
+ADDITIONAL EFFECTS
+
++2d8+1 to damage once per round (Sneak Attack) +1 to attack rolls when you have combat advantage - Nimble Blade.
+CLASS
+
++2d8+1 to damage once per round (Sneak Attack) +1 to attack rolls when you have combat advantage - Nimble Blade.
+CLASS
+
++2d8+1 to damage once per round (Sneak Attack) +1 to attack rolls when you have combat advantage - Nimble Blade.
+CLASS
+
+Rogue
+
+LEVEL
+
+1
+
+BOOK
+
+PH
+®
+
+Rogue
+
+LEVEL
+
+3
+
+BOOK
+
+PH
+®
+
+Rogue
+
+LEVEL
+
+7
+
+BOOK
+
+MP
+®
+
+ENCOUNTER POWER
+Dayereth
+
+ENCOUNTER POWER
+Page 3
+
+ENCOUNTER POWER
+
+Easy Target
+KEYWORDS
+
+Clever Riposte
+USED KEYWORDS
+
+Sneak in the Attack
+USED KEYWORDS
+
+Martial, Weapon
+* *
+
+Martial, Weapon
+*
+
+Martial *
+
+USED
+
+Standard ACTION 12 ATTACK
+
+Melee or Ranged weapon RANGE
+
+Standard ACTION 12 ATTACK
+
+Melee weapon RANGE
+
+Minor ACTION
+
+Melee 1 RANGE ENCOUNTER DAILY
+
+vs
+
+AC DEFENSE
+
+One creature TARGET
+
+vs
+
+AC DEFENSE
+
+One creature TARGET
+
+AT-WILL
+
+Requirement: You must be wielding a crossbow, a light blade, or a sling. Attack: Dexterity vs. AC Hit: 2[W] + Dexterity modifier (+4) damage, and the target is slowed and grants combat advantage to you (save ends both). Miss: Half damage, and the target grants combat advantage to you until the end of your next turn. Thundering Short sword +1: +12 attack, 2d6+5 damage Magic Dagger +2: +14 attack, 2d4+6 damage
+ADDITIONAL EFFECTS
+
+Requirement: You must be wielding a light blade. Attack: Dexterity vs. AC Hit: 2[W] + Dexterity modifier (+4) damage. Effect: Until the end of the encounter, the target takes damage equal to your Dexterity modifier (+4) each time it attacks you, and you can shift as an immediate reaction after such an attack. Thundering Short sword +1: +12 attack, 2d6+5 damage Magic Dagger +2: +14 attack, 2d4+6 damage
+ADDITIONAL EFFECTS
+
+Target: One creature Effect: Until the start of your next turn, the next ally who hits the target and has combat advantage against it deals extra damage against it equal to your Sneak Attack damage.
+
+ADDITIONAL EFFECTS
+
++2d8+1 to damage once per round (Sneak Attack) +1 to attack rolls when you have combat advantage - Nimble Blade.
+CLASS
+
++2d8+1 to damage once per round (Sneak Attack) +1 to attack rolls when you have combat advantage - Nimble Blade.
+CLASS
+
+Rogue
+
+LEVEL
+
+1
+
+BOOK
+
+PH
+®
+
+Rogue
+
+LEVEL
+
+5
+
+BOOK
+
+PH
+®
+
+CLASS
+
+Rogue
+
+LEVEL
+
+2
+
+BOOK
+
+MP
+®
+
+DAILY POWER
+
+DAILY POWER
+
+UTILITY POWER
+
+Vexing Flanker
+KEYWORDS
+
+Magic Dagger +2
+USED
+
+Thundering Short sword +1
+Light Blade
+GROUP
+
+Martial
+
+1d4
+DAMAGE
+
+3
+PROFICIENT
+
+5/10
+RANGE
+
+1d6
+DAMAGE
+
+3
+PROFICIENT
+
+Light Blade
+GROUP RANGE
+
+Imm Reaction ACTION AT-WILL ENCOUNTER
+
+Personal RANGE DAILY
+
++2 attack rolls and damage rolls
+ENHANCEMENT
+PROPERTIES
+
+6
+LEVEL
+
++2d6 damage
+CRITICAL
+
++1 attack rolls and damage rolls
+ENHANCEMENT
+PROPERTIES
+
+3
+LEVEL
+
++1d6 thunder damage
+CRITICAL
+
+Trigger: An ally enters a square adjacent to an enemy adjacent to you Effect: You can shift to any other square adjacent to the enemy.
+
+Light Thrown, Off-hand Melee Basic Attack: +11 attack, 1d4+3 damage Ranged Basic Attack: +14 attack, 1d4+6 damage
+AT-WILL
+POWER
+
+Off-hand Melee Basic Attack: +9 attack, 1d6+2 damage
+
+ENCOUNTER
+
+DAILY
+
+AT-WILL
+POWER
+
+ENCOUNTER
+
+DAILY
+
+Power (Daily • Thunder): Free Action. Use this power when you hit with the weapon. Deal 1d8 thunder damage and push 1 square.
+ADDITIONAL EFFECTS
+
+CLASS
+
+Rogue
+
+LEVEL
+
+6
+
+BOOK
+
+MP
+®
+
+ITEM SLOT
+
+Off-hand
+
+WEIGHT
+
+1
+
+PRICE
+
+1800
+
+BOOK
+
+PH
+®
+
+ITEM SLOT
+
+Off-hand
+
+WEIGHT
+
+2
+
+PRICE
+
+680
+
+BOOK
+
+PH
+®
+
+UTILITY POWER
+
+MAGIC WEAPON
+
+MAGIC WEAPON
+
+Inescapable Hand Crossbow +1
+1d6
+DAMAGE
+
+Veteran's Leather Armor +1
+10/20
+RANGE
+
+Potion of Healing (heroic tier)
+1
+QUANTITY AC BONUS CHECK SPEED
+
+2
+PROFICIENT
+
+Crossbow
+GROUP
+
+2
+AC BONUS
+
+CHECK
+
+SPEED
+
+2
+QUANTITY
+
++1 attack rolls and damage rolls
+ENHANCEMENT
+PROPERTIES
+
+3
+LEVEL
+
++1d6 damage
+CRITICAL
+PROPERTIES
+
++1 AC
+ENHANCEMENT
+
+2
+LEVEL
+
+Armor
+TYPE
+PROPERTIES
+
+5
+ENHANCEMENT LEVEL
+
+Potion
+TYPE
+
+Each time you miss a target with this weapon, you gain a cumulative +1 bonus (up to the weapon's enhancement bonus) to your next attack roll with this weapon against the same target. The bonus ends if you attack a different target or when you hit. Load Free Ranged Basic Attack: +11 attack, 1d6+5 damage
+
+When you spend an action point, you gain a +1 item bonus to all attack rolls and defenses until the end of your next turn.
+
+AT-WILL
+POWER
+
+ENCOUNTER
+
+DAILY
+
+AT-WILL
+POWER
+
+ENCOUNTER
+
+DAILY
+
+AT-WILL
+POWER
+
+ENCOUNTER
+
+DAILY
+
+Power (Consumable • Healing): Minor Action. Drink this potion and spend a healing surge. Instead of the hit points you would normally regain, you regain 10 hit points.
+
+ITEM SLOT
+
+One-hand
+
+WEIGHT
+
+2
+
+PRICE
+
+680
+
+BOOK
+
+PH
+®
+
+ITEM SLOT
+
+Body
+
+WEIGHT
+
+15
+
+PRICE
+
+520
+
+BOOK
+
+PH
+®
+
+ITEM SLOT
+
+WEIGHT
+
+0
+
+PRICE
+
+50
+
+BOOK
+
+PH
+®
+
+MAGIC WEAPON
+Dayereth
+
+MAGIC ITEM
+Page 4
+
+MAGIC ITEM
+
+Bracers of Defense (heroic tier)
+1
+AC BONUS CHECK SPEED QUANTITY
+
+Elven Cloak +2
+1
+AC BONUS CHECK SPEED QUANTITY
+
+Belt of Vigor (heroic tier)
+1
+AC BONUS CHECK SPEED QUANTITY
+
+7
+ENHANCEMENT
+PROPERTIES
+
+Arms Slot Item
+TYPE
+
++2 Fortitude, Reflex, and Will
+ENHANCEMENT
+PROPERTIES
+
+7
+LEVEL
+
+Neck Slot Item
+TYPE
+PROPERTIES
+
+2
+ENHANCEMENT LEVEL
+
+Waist Slot Item
+TYPE
+
+LEVEL
+
+Gain a +2 item bonus to Stealth checks.
+
+You gain a +1 item bonus to your healing surge value.
+
+AT-WILL
+POWER
+
+ENCOUNTER
+
+DAILY
+
+AT-WILL
+POWER
+
+ENCOUNTER
+
+DAILY
+
+AT-WILL
+POWER
+
+ENCOUNTER
+
+DAILY
+
+Power (Daily): Immediate Interrupt. You can use this power when you are hit by a melee attack. Reduce the damage dealt to you by the attack by 10.
+
+ITEM SLOT
+
+Arms
+
+WEIGHT
+
+0
+
+PRICE
+
+2600
+
+BOOK
+
+PH
+®
+
+ITEM SLOT
+
+Neck
+
+WEIGHT
+
+0
+
+PRICE
+
+2600
+
+BOOK
+
+PH
+®
+
+ITEM SLOT
+
+Waist
+
+WEIGHT
+
+0
+
+PRICE
+
+520
+
+BOOK
+
+PH
+®
+
+MAGIC ITEM
+
+MAGIC ITEM
+
+MAGIC ITEM
+
+Dayereth
+
+Page 5
+
+
