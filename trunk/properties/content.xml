@@ -524,13 +524,6 @@
           <defaultValue>0</defaultValue>
         </net.rptools.maptool.model.TokenProperty>
         <net.rptools.maptool.model.TokenProperty>
-          <name>Initiative</name>
-          <highPriority>false</highPriority>
-          <ownerOnly>false</ownerOnly>
-          <gmOnly>false</gmOnly>
-          <defaultValue>{HalfLevel+InitBonus+DexBonus}</defaultValue>
-        </net.rptools.maptool.model.TokenProperty>
-        <net.rptools.maptool.model.TokenProperty>
           <name>InitBonus</name>
           <highPriority>false</highPriority>
           <ownerOnly>false</ownerOnly>
@@ -552,25 +545,11 @@
           <defaultValue>0</defaultValue>
         </net.rptools.maptool.model.TokenProperty>
         <net.rptools.maptool.model.TokenProperty>
-          <name>StartingHP</name>
-          <highPriority>false</highPriority>
-          <ownerOnly>false</ownerOnly>
-          <gmOnly>false</gmOnly>
-          <defaultValue>0</defaultValue>
-        </net.rptools.maptool.model.TokenProperty>
-        <net.rptools.maptool.model.TokenProperty>
-          <name>ClassHP</name>
-          <highPriority>false</highPriority>
-          <ownerOnly>false</ownerOnly>
-          <gmOnly>false</gmOnly>
-          <defaultValue>0</defaultValue>
-        </net.rptools.maptool.model.TokenProperty>
-        <net.rptools.maptool.model.TokenProperty>
           <name>MaxHP</name>
           <highPriority>false</highPriority>
           <ownerOnly>false</ownerOnly>
           <gmOnly>false</gmOnly>
-          <defaultValue>{StartingHP+Constitution+ClassHP*(CharLevel - 1)}</defaultValue>
+          <defaultValue>0</defaultValue>
         </net.rptools.maptool.model.TokenProperty>
         <net.rptools.maptool.model.TokenProperty>
           <name>Bloodied</name>
@@ -591,13 +570,6 @@
           <highPriority>false</highPriority>
           <ownerOnly>false</ownerOnly>
           <gmOnly>false</gmOnly>
-          <defaultValue>{floor(MaxHP/4)}</defaultValue>
-        </net.rptools.maptool.model.TokenProperty>
-        <net.rptools.maptool.model.TokenProperty>
-          <name>ClassSurgePerDay</name>
-          <highPriority>false</highPriority>
-          <ownerOnly>false</ownerOnly>
-          <gmOnly>false</gmOnly>
           <defaultValue>0</defaultValue>
         </net.rptools.maptool.model.TokenProperty>
         <net.rptools.maptool.model.TokenProperty>
@@ -605,7 +577,7 @@
           <highPriority>false</highPriority>
           <ownerOnly>false</ownerOnly>
           <gmOnly>false</gmOnly>
-          <defaultValue>{ClassSurgePerDay+ConBonus}</defaultValue>
+          <defaultValue>0</defaultValue>
         </net.rptools.maptool.model.TokenProperty>
         <net.rptools.maptool.model.TokenProperty>
           <name>SurgeRemaining</name>
@@ -620,28 +592,28 @@
           <highPriority>false</highPriority>
           <ownerOnly>false</ownerOnly>
           <gmOnly>false</gmOnly>
-          <defaultValue>{10+HalfLevel+max(IntBonus, DexBonus)+ArmorBonus+ShieldBonus+TempAC}</defaultValue>
+          <defaultValue>0</defaultValue>
         </net.rptools.maptool.model.TokenProperty>
         <net.rptools.maptool.model.TokenProperty>
           <name>Fortitude</name>
           <highPriority>false</highPriority>
           <ownerOnly>false</ownerOnly>
           <gmOnly>false</gmOnly>
-          <defaultValue>{10+HalfLevel+max(StrBonus, ConBonus)+FortBonus}</defaultValue>
+          <defaultValue>0</defaultValue>
         </net.rptools.maptool.model.TokenProperty>
         <net.rptools.maptool.model.TokenProperty>
           <name>Reflex</name>
           <highPriority>false</highPriority>
           <ownerOnly>false</ownerOnly>
           <gmOnly>false</gmOnly>
-          <defaultValue>{10+HalfLevel+max(IntBonus, DexBonus)+ReflexBonus}</defaultValue>
+          <defaultValue>0</defaultValue>
         </net.rptools.maptool.model.TokenProperty>
         <net.rptools.maptool.model.TokenProperty>
           <name>Will</name>
           <highPriority>false</highPriority>
           <ownerOnly>false</ownerOnly>
           <gmOnly>false</gmOnly>
-          <defaultValue>{10+HalfLevel+max(WisBonus, ChaBonus)+WillBonus}</defaultValue>
+          <defaultValue>0</defaultValue>
         </net.rptools.maptool.model.TokenProperty>
         <net.rptools.maptool.model.TokenProperty>
           <name>DisplayDefs</name>
@@ -755,48 +727,6 @@
           <ownerOnly>false</ownerOnly>
           <gmOnly>false</gmOnly>
           <defaultValue>{floor((Charisma-10)/2)}</defaultValue>
-        </net.rptools.maptool.model.TokenProperty>
-        <net.rptools.maptool.model.TokenProperty>
-          <name>ArmorBonus</name>
-          <highPriority>false</highPriority>
-          <ownerOnly>false</ownerOnly>
-          <gmOnly>false</gmOnly>
-          <defaultValue>0</defaultValue>
-        </net.rptools.maptool.model.TokenProperty>
-        <net.rptools.maptool.model.TokenProperty>
-          <name>ShieldBonus</name>
-          <highPriority>false</highPriority>
-          <ownerOnly>false</ownerOnly>
-          <gmOnly>false</gmOnly>
-          <defaultValue>0</defaultValue>
-        </net.rptools.maptool.model.TokenProperty>
-        <net.rptools.maptool.model.TokenProperty>
-          <name>FortBonus</name>
-          <highPriority>false</highPriority>
-          <ownerOnly>false</ownerOnly>
-          <gmOnly>false</gmOnly>
-          <defaultValue>0</defaultValue>
-        </net.rptools.maptool.model.TokenProperty>
-        <net.rptools.maptool.model.TokenProperty>
-          <name>ReflexBonus</name>
-          <highPriority>false</highPriority>
-          <ownerOnly>false</ownerOnly>
-          <gmOnly>false</gmOnly>
-          <defaultValue>0</defaultValue>
-        </net.rptools.maptool.model.TokenProperty>
-        <net.rptools.maptool.model.TokenProperty>
-          <name>WillBonus</name>
-          <highPriority>false</highPriority>
-          <ownerOnly>false</ownerOnly>
-          <gmOnly>false</gmOnly>
-          <defaultValue>0</defaultValue>
-        </net.rptools.maptool.model.TokenProperty>
-        <net.rptools.maptool.model.TokenProperty>
-          <name>TempAC</name>
-          <highPriority>false</highPriority>
-          <ownerOnly>false</ownerOnly>
-          <gmOnly>false</gmOnly>
-          <defaultValue>0</defaultValue>
         </net.rptools.maptool.model.TokenProperty>
         <net.rptools.maptool.model.TokenProperty>
           <name>------------------|Powers|-------------------</name>
