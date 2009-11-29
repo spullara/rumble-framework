@@ -2212,7 +2212,7 @@ case &quot;Leader&quot;:
 	&quot;CharLevel|&quot;+CharLevel+&quot;|&lt;html&gt; &amp;nbsp; Level&lt;/html&gt;&quot;,
 	&quot;XP|&quot;+XP+&quot;|&lt;html&gt; &amp;nbsp; XP&lt;/html&gt;&quot;,
 	&quot;Speed|&quot;+Speed+&quot;|&lt;html&gt; &amp;nbsp; Character Speed&lt;/html&gt;&quot;,
-	&quot;InitBonus|&quot;+InitBonus+&quot;|&lt;html&gt; &amp;nbsp; Initiative Bonus  (Bonus Only, Dex and Half Level are autocalc)&lt;/html&gt;&quot;,
+	&quot;InitBonus|&quot;+InitBonus+&quot;|&lt;html&gt; &amp;nbsp; Initiative Bonus&lt;/html&gt;&quot;,
 &quot;.|&lt;html&gt;&lt;b&gt;&lt;u&gt;Miscellaneous&lt;/u&gt;&lt;/b&gt;&lt;/html&gt;||LABEL|SPAN=TRUE&quot;,
 	&quot;ActionPoints|&quot;+ActionPoints+&quot;|&lt;html&gt; &amp;nbsp; Action Points&lt;/html&gt;&quot;,
 	&quot;PassivePercep|&quot;+PassivePercep+&quot;|&lt;html&gt; &amp;nbsp; Passive Perception Score&lt;/html&gt;&quot;,
@@ -2229,15 +2229,15 @@ case &quot;Leader&quot;:
 &quot;.|------------------------------------------------------------------------------------------------------------------------------------------------||LABEL|SPAN=TRUE&quot;,
 &quot;.|&lt;html&gt;&lt;b&gt;&lt;u&gt;HP &amp; Healing&lt;/u&gt;&lt;/b&gt;&lt;/html&gt;||LABEL|SPAN=TRUE&quot;,
 	&quot;CurrHP|&quot;+CurrHP+&quot;|&lt;html&gt; &amp;nbsp; Current Hit Points&lt;/html&gt;&quot;,
-	&quot;StartingHP|&quot;+StartingHP+&quot;|&lt;html&gt; &amp;nbsp; Starting Hit Points&lt;/html&gt;&quot;,
-	&quot;ClassHP|&quot;+ClassHP+&quot;|&lt;html&gt; &amp;nbsp; Class Hit Points&lt;/html&gt;&quot;,
+	&quot;MaxHP|&quot;+MaxHP+&quot;|&lt;html&gt; &amp;nbsp; Maximum Hit Points&lt;/html&gt;&quot;,
+	&quot;SurgeValue|&quot;+SurgeValue+&quot;|&lt;html&gt; &amp;nbsp; Healing Surge Value&lt;/html&gt;&quot;,
+	&quot;SurgePerDay|&quot;+SurgePerDay+&quot;|&lt;html&gt; &amp;nbsp; Surges Per Day&lt;/html&gt;&quot;,
 	&quot;SurgeRemaining|&quot;+SurgeRemaining+&quot;|&lt;html&gt; &amp;nbsp; Surges Remaining&lt;/html&gt;&quot;,
-	&quot;ClassSurgePerDay|&quot;+ClassSurgePerDay+&quot;|&lt;html&gt; &amp;nbsp; Class Surges Per Day&lt;/html&gt;&quot;,
 &quot;.|&lt;html&gt;&lt;b&gt;&lt;u&gt;Defenses&lt;/u&gt;&lt;/b&gt;&lt;/html&gt;||LABEL|SPAN=TRUE&quot;,
-	&quot;FortBonus|&quot;+FortBonus+&quot;|&lt;html&gt; &amp;nbsp; Fortitude Bonus&lt;/html&gt;&quot;,
-	&quot;ReflexBonus|&quot;+ReflexBonus+&quot;|&lt;html&gt; &amp;nbsp; Reflex Bonus&lt;/html&gt;&quot;,
-	&quot;WillBonus|&quot;+WillBonus+&quot;|&lt;html&gt; &amp;nbsp; Will Bonus&lt;/html&gt;&quot;,
-	&quot;TempAC|&quot;+TempAC+&quot;|&lt;html&gt; &amp;nbsp; Temp AC&lt;/html&gt;&quot;,
+	&quot;AC|&quot;+AC+&quot;|&lt;html&gt; &amp;nbsp; Armor Class&lt;/html&gt;&quot;,
+	&quot;Fortitude|&quot;+Fortitude+&quot;|&lt;html&gt; &amp;nbsp; Fortitude&lt;/html&gt;&quot;,
+	&quot;Reflex|&quot;+Reflex+&quot;|&lt;html&gt; &amp;nbsp; Reflex&lt;/html&gt;&quot;,
+	&quot;Will|&quot;+Will+&quot;|&lt;html&gt; &amp;nbsp; Will&lt;/html&gt;&quot;,
 &quot;.|&lt;html&gt;&lt;b&gt;&lt;u&gt;Saves&lt;/u&gt;&lt;/b&gt;&lt;/html&gt;||LABEL|SPAN=TRUE&quot;,
 &quot;.|Enter text description of any save bonuses, e.g. &apos;+5 against Poison&apos; or &apos;+5 vs. Fear effects&apos;||LABEL|SPAN=TRUE&quot;,
 &quot;saveMod1|&quot;+json.get(saveBonuses, &quot;mod1&quot;)+&quot;|&lt;html&gt; &amp;nbsp; Save Bonus 1&lt;/html&gt;&quot;,
@@ -4863,7 +4863,7 @@ case &quot;Warlock&apos;s Curse&quot;:{
         <index>93</index>
         <colorKey>default</colorKey>
         <hotKey>None</hotKey>
-        <command>[h:Init=1d20+Initiative]
+        <command>[h:Init=1d20+InitBonus]
 
 [r,if(isPC()),CODE:
 {
@@ -7066,4 +7066,3 @@ case &quot;null&quot;: {};]
   </macroPropertiesMap>
   <speechMap/>
 </net.rptools.maptool.model.Token>
-
